@@ -12,6 +12,10 @@
 		3E3AC87B29237F990000AA35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC87A29237F990000AA35 /* MapView.swift */; };
 		3E3AC87D29237FA50000AA35 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC87C29237FA50000AA35 /* GalleryView.swift */; };
 		3E3AC87F292380440000AA35 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC87E292380440000AA35 /* AnimalDetailView.swift */; };
+		3E3AC8832923810B0000AA35 /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8822923810B0000AA35 /* CodeableBundleExtension.swift */; };
+		3E3AC8852923812F0000AA35 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8842923812F0000AA35 /* AnimalModel.swift */; };
+		3E3AC8892923825A0000AA35 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC8882923825A0000AA35 /* VideoListItemView.swift */; };
+		3E3AC88D292382B40000AA35 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AC88C292382B40000AA35 /* AnimalListItemView.swift */; };
 		3EF98FD729237AB00090071F /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF98FD629237AB00090071F /* AfricaApp.swift */; };
 		3EF98FD929237AB00090071F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF98FD829237AB00090071F /* ContentView.swift */; };
 		3EF98FDB29237AB10090071F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF98FDA29237AB10090071F /* Assets.xcassets */; };
@@ -38,6 +42,11 @@
 		3E3AC87A29237F990000AA35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3E3AC87C29237FA50000AA35 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		3E3AC87E292380440000AA35 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		3E3AC8822923810B0000AA35 /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
+		3E3AC8842923812F0000AA35 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		3E3AC8882923825A0000AA35 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		3E3AC88C292382B40000AA35 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		3E3AC88E2923850D0000AA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3EF98FD329237AB00090071F /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF98FD629237AB00090071F /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		3EF98FD829237AB00090071F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +98,7 @@
 		3EF98FD529237AB00090071F /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				3E3AC88E2923850D0000AA35 /* Info.plist */,
 				3EF98FE929237C1B0090071F /* Data */,
 				3EF98FE829237BEB0090071F /* Video */,
 				3EF98FE729237BE30090071F /* Model */,
@@ -126,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				3E3AC87E292380440000AA35 /* AnimalDetailView.swift */,
+				3E3AC8882923825A0000AA35 /* VideoListItemView.swift */,
+				3E3AC88C292382B40000AA35 /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,6 +145,7 @@
 		3EF98FE629237BD20090071F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3E3AC8822923810B0000AA35 /* CodeableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -140,6 +153,7 @@
 		3EF98FE729237BE30090071F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3E3AC8842923812F0000AA35 /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,12 +270,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3AC88D292382B40000AA35 /* AnimalListItemView.swift in Sources */,
 				3E3AC87929237F8E0000AA35 /* VideoListView.swift in Sources */,
+				3E3AC8852923812F0000AA35 /* AnimalModel.swift in Sources */,
 				3E3AC87F292380440000AA35 /* AnimalDetailView.swift in Sources */,
 				3E3AC87D29237FA50000AA35 /* GalleryView.swift in Sources */,
 				3EF98FD929237AB00090071F /* ContentView.swift in Sources */,
+				3E3AC8892923825A0000AA35 /* VideoListItemView.swift in Sources */,
 				3E3AC87B29237F990000AA35 /* MapView.swift in Sources */,
 				3E3AC87729237F350000AA35 /* MainView.swift in Sources */,
+				3E3AC8832923810B0000AA35 /* CodeableBundleExtension.swift in Sources */,
 				3EF98FD729237AB00090071F /* AfricaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,11 +411,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,11 +441,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
